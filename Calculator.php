@@ -16,5 +16,13 @@ class Calculator
     {
         return $a / $b;
     }
- 
+
+    public function par($a): bool
+    {
+	if($a%2==0) {
+		return true;
+	} else {
+		return false;
+	}
+    } 
 }
